@@ -1,0 +1,25 @@
+:root {
+  --paper: #FBF7F0;
+  --ink: #2A2420;
+  --clay: #B5532E;
+  --sage: #4F6F57;
+  --sand: #EDE4D3;
+  --line: #D9CDB8;
+  --font-size-base: 20px;
+  --tap-target-min: 56px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: var(--paper);
+  color: var(--ink);
+  font-family: 'Noto Sans', sans-serif;
+  font-size: var(--font-size-base);
+  line-height: 1.5;
+}
